@@ -49,7 +49,7 @@ Open `index.html` in your browser.
 
 ## 🌐 Live Demo
 Add your deployed link here:
-https://your-live-demo-link.com
+[https://your-live-demo-link.com](https://petdogimages.netlify.app/)
 
 ## 📸 Screenshot
 (Add project screenshot here)
