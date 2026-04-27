@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin-top: 40px;
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.border1 {
+    border: 2px solid black;
+    background: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+    
+}
+
+i,
+input[type="number"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 0;
+}
+
+input[type="number"] {
+    width: 96%;
+    padding-left: 5px;
+    font-size: 16px;
+
+}
+
+i {
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: skyblue;
+    cursor: pointer;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+#div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.img1 {
+    padding-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0 0 20px 20px;
+}
+
+@media(max-width:339px){
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+.border1{
+    border:2px solid black;
+    background:white;
+    height:35px;
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+    width: 90%;
+margin: 17px;
+}
+button{
+ width: 150px;
+ margin-left: 20px;
+}
+    
+}
